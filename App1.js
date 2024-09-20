@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // const heading=React.createElement("h1",{},"Hello World from React!!!");
 // const heading=React.createElement("h1",{id:"heading" ,class:"headingClass"},"Hello World from React!!!");
 
@@ -54,8 +57,7 @@
         <h2> Nested Div Implementation </h2>
     </div>
 </div>
-*/
-
+*/  
 const parent=React.createElement("div",{id:"parent"},
     [React.createElement("div",{id:"child1"},
     [React.createElement("h1",{},"Nested Div Implementation h1"),
